@@ -1,0 +1,25 @@
+{
+  "name": "id-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"concurrently \"tsc --watch\" \"nodemon ./dist\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrFranchills/id-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrFranchills/id-generator/issues"
+  },
+  "homepage": "https://github.com/MrFranchills/id-generator#readme",
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^2.0.1",
+    "typescript": "^3.7.2"
+  }
+}
